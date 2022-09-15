@@ -3,6 +3,9 @@
 /* variables */
 :root {
     --primary-color: #047aed;
+    --secondary-color: #1c3fa8;
+    --dark-color: #002240;
+    --light-color: #f4f4f4;
 }
 
 /* Reset */
@@ -168,6 +171,11 @@ img {
     grid-row: 1 / span 2;
 }
 
+/* Cloud */
+
+.cloud .grid {
+    grid-template-columns: 4fr 3fr;
+}
 
 
 
@@ -235,6 +243,31 @@ img {
 .btn:hover {
     transform: scale(.98);
 }
+
+.bg-primary,
+.btn-primary {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.bg-secondary,
+.btn-secondary {
+    background-color: var(--secondary-color);
+    color: #fff;
+}
+
+.bg-dark,
+.btn-dark {
+    background-color: var(--dark-color);
+    color: #fff;
+}
+
+.bg-light,
+.btn-light {
+    background-color: var(--light-color);
+    color: #fff;
+}
+
 
 .grid-3 {
     grid-template-columns: repeat(3, 1fr);
