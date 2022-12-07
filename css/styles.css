@@ -177,6 +177,27 @@ img {
     grid-template-columns: 4fr 3fr;
 }
 
+/* Footer */
+.footer .social a {
+    margin: 0 10px;
+  }
+  
+  .fa-github:hover {
+    color: #000000;
+  }
+  
+  .fa-facebook:hover {
+    color: #1773EA;
+  }
+  
+  .fa-instagram:hover {
+    color: #B32E87;
+  }
+  
+  .fa-twitter:hover {
+    color: #1C9CEA;
+  }
+
 
 
 
@@ -269,6 +290,14 @@ img {
     background-color: var(--light-color);
     color: #fff;
 }
+.bg-primary a,
+.btn-primary a,
+.bg-secondary a,
+.btn-secondary a,
+.bg-dark a,
+.btn-dark a {
+  color: #fff;
+}
 
 /*Text Sizes*/
 .lead {
@@ -318,3 +347,44 @@ img {
 .my-5 {
     margin: 4rem 0;
 }
+
+/* Padding */
+.py-1 {
+    padding: 1rem 0;
+  }
+  
+  .py-2 {
+    padding: 1.5rem 0;
+  }
+  
+  .py-3 {
+    padding: 2rem 0;
+  }
+  
+  .py-4 {
+    padding: 3rem 0;
+  }
+  
+  .py-5 {
+    padding: 4rem 0;
+  }
+  
+  .p-1 {
+    padding: 1rem;
+  }
+  
+  .p-2 {
+    padding: 1.5rem;
+  }
+  
+  .p-3 {
+    padding: 2rem;
+  }
+  
+  .p-4 {
+    padding: 3rem;
+  }
+  
+  .p-5 {
+    padding: 4rem;
+  }
